@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.SingleContent.FramePage"
+             Title="FramePage">
+    <VerticalStackLayout
+        Margin="20"
+        Spacing="20">
+        <Frame
+            CornerRadius="20"
+            HasShadow="True"
+            BorderColor="BlueViolet">
+
+            <StackLayout>
+                <Label Text="Un frame con borde BlueViolet" />
+                <Label Text="y un CornerRadius de 20" />
+            </StackLayout>
+
+        </Frame>
+
+        <Frame
+            CornerRadius="10"
+            HasShadow="True"
+            BorderColor="Yellow">
+
+            <StackLayout>
+                <Label Text="Un frame con borde Yellow" />
+                <Label Text="y un CornerRadius de 10" />
+            </StackLayout>
+
+        </Frame>
+
+        <Border
+            StrokeThickness="1"
+            Stroke="Purple"
+            StrokeShape="RoundRectangle 0, 5, 5, 0">
+
+            <Border.Shadow>
+
+                <Shadow
+                    Brush="Black"
+                    Radius="40"
+                    Offset="20,20"
+                    Opacity="0.8" />
+
+            </Border.Shadow>
+
+            <StackLayout
+                BackgroundColor="Beige"
+                Padding="10">
+                <Label Text="Un Border que mejora al Frame en .NET MAUI" />
+                <Label Text="Stroke Purple (morado)" />
+                <Label Text="y StrokeShape - RoundRectangle para redondear bordes" />
+                <Label Text="Con un Shadow personalizable." />
+            </StackLayout>
+
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>

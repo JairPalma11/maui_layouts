@@ -1,4 +1,6 @@
-﻿namespace MauiLayouts;
+﻿using MauiLayouts.SingleContent;
+
+namespace MauiLayouts;
 
 public partial class App : Application
 {
@@ -6,7 +8,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		MainPage = new ScrollViewPage();
 	}
 }
 
