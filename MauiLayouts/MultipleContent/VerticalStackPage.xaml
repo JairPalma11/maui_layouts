@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.MultipleContent.VerticalStackPage"
+             Title="VerticalStackPage">
+    <VerticalStackLayout
+        Margin="20"
+        Spacing="10">
+        <Label
+            BackgroundColor="Yellow"
+            Text="Este es un label al inicio (Start)"
+            VerticalOptions="Start" />
+        <Label
+            BackgroundColor="Purple"
+            Text="Este es un label al centro (Center)"
+            VerticalOptions="Center"  />
+        <Label
+            BackgroundColor="Orange"
+            Text="Este es un label al final (End)"
+            VerticalOptions="End" />
+    </VerticalStackLayout>
+</ContentPage>
