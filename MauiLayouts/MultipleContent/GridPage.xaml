@@ -17,6 +17,7 @@
             StrokeShape="RoundRectangle 20">
 
             <Image
+                Aspect="AspectFill"
                 Source="grid_image" />
 
         </Border>
