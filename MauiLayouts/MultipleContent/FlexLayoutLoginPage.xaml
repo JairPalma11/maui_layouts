@@ -23,7 +23,7 @@
                 Source="dotnet_bot" />
 
         </Border>
-
+        <!-- Contenido -->
         <Frame
             FlexLayout.Order="2">
             <VerticalStackLayout
@@ -38,6 +38,7 @@
 
             </VerticalStackLayout>
         </Frame>
+        <!-- Pie  -->
         <Label
             FlexLayout.Order="3"
             HorizontalTextAlignment="Center"
