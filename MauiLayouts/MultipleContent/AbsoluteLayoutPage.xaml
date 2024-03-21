@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.MultipleContent.AbsoluteLayoutPage"
+             Title="AbsoluteLayoutPage">
+    <AbsoluteLayout>
+
+        <Image
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.1,0.05,100,100"
+            Source="dotnet_bot" />
+
+        <Image
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.90,0.05,100,100"
+            Source="dotnet_bot" />
+
+        <Image
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds=".5,.5,0.50,0.50"
+            Source="dotnet_bot" />
+
+
+        <Button
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+            AbsoluteLayout.LayoutBounds=".5,.8,0.80,40"
+            Text="Haz click aqui" />
+
+    </AbsoluteLayout>
+</ContentPage>

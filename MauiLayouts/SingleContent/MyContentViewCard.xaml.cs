@@ -1,5 +1,4 @@
-﻿using AndroidX.CardView.Widget;
-
+﻿
 namespace MauiLayouts.SingleContent;
 
 public partial class MyContentViewCard : ContentView
