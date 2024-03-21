@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.MultipleContent.FlexLayoutLoginPage"
+             Padding="20"
+             Title="FlexLayoutLoginPage">
+    <FlexLayout
+        JustifyContent="SpaceEvenly"
+        Direction="Column">
+
+        <!-- Encabezado -->
+        <Border
+            FlexLayout.AlignSelf="Center"
+            WidthRequest="200"
+            HeightRequest="200"
+            FlexLayout.Order="1"
+            StrokeShape="RoundRectangle 100">
+
+            <Image
+                WidthRequest="200"
+                HeightRequest="200"
+                BackgroundColor="Purple"
+                Source="dotnet_bot" />
+
+        </Border>
+
+        <Frame
+            FlexLayout.Order="2">
+            <VerticalStackLayout
+                VerticalOptions="CenterAndExpand"
+                Spacing="12">
+
+                <Entry Placeholder="Correo electronico" />
+                <Entry Placeholder="Contrasena" />
+                <Button
+                    Margin="0, 20"
+                    Text="Iniciar Sesion" />
+
+            </VerticalStackLayout>
+        </Frame>
+        <Label
+            FlexLayout.Order="3"
+            HorizontalTextAlignment="Center"
+            Text="Version 20240321" />
+    </FlexLayout>
+</ContentPage>

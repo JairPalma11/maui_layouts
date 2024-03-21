@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.MultipleContent.FlexLayoutPage"
+             Padding="20"
+             Title="FlexLayoutPage">
+    <FlexLayout
+        JustifyContent="Center"
+        Wrap="Wrap"
+        Direction="Column">
+
+        <Label
+            TextColor="White"
+            BackgroundColor="Purple"
+            Text="Primer label" />
+
+        <Label
+            TextColor="White"
+            BackgroundColor="Blue"
+            Text="Segundo label" />
+
+        <Label
+            TextColor="White"
+            BackgroundColor="Green"
+            Text="Tercer label" />
+        <!--
+        
+        <Label
+            TextColor="White"
+            BackgroundColor="Purple"
+            Text="Primer label" />
+
+        <Label
+            TextColor="White"
+            BackgroundColor="Blue"
+            Text="Segundo label" />
+
+        <Label
+            TextColor="White"
+            BackgroundColor="Green"
+            Text="Tercer label" />
+
+        -->
+
+    </FlexLayout>
+</ContentPage>
